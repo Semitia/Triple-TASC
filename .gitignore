@@ -1,0 +1,123 @@
+# Ignore build directories
+build/
+devel/
+install/
+BUILD/
+Objects/
+logs/
+
+# Ignore Clangd compile_commands.json
+**/compile_commands.json
+
+
+# Ignore generated files
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.d
+*.suo
+*.ncb
+*.user
+*.sdf
+*.sln
+*.opendb
+*.layout
+*.iex
+*.dep
+*.htm
+*.crf
+*.lmp
+*.axf
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IAR Embedded Workbench files
+*.ewd
+*.ewp
+*.eww
+
+# Ignore generated dependency files
+*.d
+
+# Ignore the JLink download script
+jlink/flash.jlink
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore toolchain-specific files
+/opt/arm-gnu-toolchain-*/
+
+# Ignore the Makefile configuration if you have local changes
+Makefile.local
+
+# Ignore your private configuration files
+*.conf
+*.cfg
+
+# Ignore cache files
+.cache/
+
+# ROS1 specific files
+build/
+devel/
+install/
+log/
+logs/
+
+# ROS2 specific files
+.colcon/
+build/
+install/
+log/
+
+# ROS bag files
+*.bag
+
+# ROS launch logs
+roslaunch-*.log
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Catkin workspace files
+*.catkin_tools
+.catkin_workspace
+.catkin_tools/
+
+# CLion IDE files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore other backup files
+*.orig
+
+# Ignore additional specific files (customize based on your environment)
+.vscode/
+
